@@ -1,0 +1,348 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+p {
+  font-family: "BPG Algeti", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+.morse-services-title {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 160px;
+  font-weight: bold;
+}
+
+.first-service {
+  margin: 40px 70px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.282);
+  background: linear-gradient(to bottom, #ebca75, #ffffff7b);
+  border-radius: 40px;
+}
+
+.first-service h2 {
+  text-align: left;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.first-service-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 30px;
+  padding: 40px;
+  padding-top: 40px;
+}
+
+.first-service-item {
+  box-sizing: border-box;
+  /* border: 1px solid rgb(229, 229, 229); */
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.282);
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: white;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.first-service-item:hover {
+  box-shadow: 1px 1px 25px 3px rgba(0, 0, 0, 0.3);
+  background-color: #f2dfbb;
+}
+
+.first-service-item h3 {
+  font-size: 18px;
+}
+
+.first-service-item img {
+  height: 60px;
+}
+
+.second-service-wrapper {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffffff7b, #f2d49b);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.282);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 70px;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.second-service-wrapper h2 {
+  width: 100%;
+  font-size: 30px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .card {
+  position: relative;
+  cursor: pointer;
+}
+
+.container .card .face {
+  width: 390px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+  border-radius: 20px;
+}
+
+.container .card:hover .face.face1 {
+  background: #f2c879;
+  transform: translateY(0);
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.container .card .face.face1 .content {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img {
+  max-width: 100px;
+}
+
+.container .card .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: white;
+  /* font-weight: bold; */
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+  border-radius: 25px;
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+.container .card .face.face2 .content a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.second-service-table {
+  /* border: 1px solid #ccc; */
+  /* border-radius: 10px; */
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  font-family: "BPG Algeti", sans-serif;
+}
+.second-service-table td {
+  border: 1px solid #ccc;
+  /* height: 100%; */
+  padding: 20px 10px 20px 10px;
+
+  text-align: left;
+}
+.second-service-table tr:first-child td {
+  border-top: none;
+}
+.second-service-table tr td:first-child {
+  border-left: none;
+}
+.second-service-table tr td:last-child {
+  border-right: none;
+}
+.second-service-table tr:last-child td {
+  border-bottom: none;
+}
+
+.third-service-wrapper {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 30px;
+  margin: 60px 70px 50px 70px;
+  padding: 40px;
+  background: linear-gradient(to bottom, #f2dfbb, #ffffff7b);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.282);
+}
+
+.third-service-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0px 20px;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+.third-service-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.third-service-content h2 {
+  font-size: 30px;
+  line-height: auto;
+  margin-bottom: 20px;
+}
+
+.third-service-content ul li {
+  background-image: url("../images/ბულეთი.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 24px;
+  line-height: 20px;
+}
+.profile-card {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.profile-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.profile-card h3 {
+  position: absolute;
+  background: linear-gradient(to top, #ffffff00, #000000);
+  top: 0px;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  color: white;
+  transition: all 0.5s;
+  font-size: 25px;
+}
+
+.profile-content {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: -165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profile-content h2 {
+  font-size: 25px;
+}
+
+.profile-content p {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.profile-card:hover img {
+  transform: scale(1.1);
+}
+
+.profile-card:hover .profile-content {
+  bottom: 0px;
+  background: linear-gradient(to bottom, #ffffff00, #000000);
+}

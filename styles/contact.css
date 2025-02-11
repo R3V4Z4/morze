@@ -1,0 +1,184 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+p {
+  font-family: "BPG Algeti", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+body {
+  background-image: url("../images/background.png");
+  /* background-size: cover; */
+
+  background-repeat: repeat;
+  height: 1000px;
+}
+.contact-section {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin: 170px 115px 50px 115px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+  /* background-color: white;  */
+  color: #333;
+  border-radius: 30px;
+}
+
+.contact-text {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 20px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.contact-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contact-cards {
+  width: 53%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+.one-contact-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ebca75; /* Subtle border */
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.282);
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  width: 250px;
+}
+
+.one-contact-card:hover {
+  box-shadow: 1px 1px 25px 3px rgba(0, 0, 0, 0.3);
+  background-color: #f2dfbb;
+}
+
+.one-contact-card i {
+  font-size: 50px;
+  color: #333;
+}
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 10px;
+}
+
+.accordion-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.one-accordion {
+  width: 60%;
+  border-radius: 20px;
+  cursor: pointer;
+  color: black;
+  background: rgba(255, 255, 255, 0.438);
+  backdrop-filter: blur(20px);
+}
+
+.accordion-content-container {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.4s ease-in-out;
+  line-height: 20px;
+  font-family: "BPG Arial Caps", sans-serif;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 25px;
+  border-radius: 20px;
+}
+
+.accordion-content-container a {
+  font-family: "BPG Arial Caps", sans-serif;
+  font-weight: bold;
+}
+
+.accordion-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 30px;
+  height: 40px;
+  gap: 20px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid transparent;
+  position: relative;
+}
+
+.accordion-title-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 1px;
+  background: rgba(74, 74, 74, 0.638);
+  transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
+}
+
+.accordion-title-container i {
+  transition: 0.3s ease-in-out;
+}
+
+.one-accordion:hover .accordion-content-container {
+  height: 160px;
+}
+
+.one-accordion:hover .accordion-title-container i {
+  rotate: 180deg;
+}
+
+.one-accordion:hover .accordion-title-container::after {
+  width: calc(100% - 60px);
+  left: 30px;
+}

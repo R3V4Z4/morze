@@ -1,0 +1,1277 @@
+@media (max-width: 1530px) {
+  .why-morse:nth-child(3) h5 {
+    padding-right: 7%;
+  }
+
+  .why-morse:nth-child(4) h5 {
+    padding-left: 2%;
+  }
+}
+
+@media (max-width: 1490px) {
+  .why-morse:nth-child(1) h5 {
+    padding-right: 30%;
+  }
+
+  .why-morse:nth-child(3) h5 {
+    padding-right: 0;
+  }
+
+  .why-morse:nth-child(2) h5 {
+    padding-left: 15%;
+  }
+
+  .why-morse:nth-child(4) h5 {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 1460px) {
+  .why-morse h5 {
+    font-size: 30px;
+  }
+
+  .why-morse:nth-child(1) h5 {
+    padding-right: 32%;
+  }
+
+  .why-morse:nth-child(3) h5 {
+    padding-right: 10%;
+  }
+
+  .why-morse:nth-child(2) h5 {
+    padding-left: 15%;
+  }
+
+  .why-morse:nth-child(4) h5 {
+    padding-left: 4%;
+  }
+
+  .why-morse img {
+    height: 80px;
+  }
+}
+
+@media (max-width: 1385px) {
+  .about-me {
+    gap: 20px;
+  }
+
+  .about-me2 h2 {
+    font-size: 40px;
+  }
+
+  .partners-container {
+    padding-left: 40px;
+  }
+
+  .service-section {
+    padding: 0px 80px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .why-content1,
+  .why-content2,
+  .why-content3,
+  .why-content4 {
+    height: 125px;
+  }
+
+  .why-morse img {
+    top: -60px;
+  }
+}
+
+@media (max-width: 1333px) {
+  .why-morse:nth-child(3) h5 {
+    padding-right: 0;
+  }
+  .why-morse:nth-child(4) h5 {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 1285px) {
+  #carousel1 img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+  }
+
+  .partners-wrapper {
+    justify-content: center;
+    gap: 70px;
+  }
+
+  .partners-container {
+    padding: 0px;
+  }
+
+  .partners-container h4 {
+    font-size: 40px;
+  }
+
+  #carousel2.splide {
+    padding: 48px 24px 48px 0px;
+  }
+
+  #carousel3.splide {
+    padding: 48px 0px 48px 24px;
+  }
+
+  .why-morse:nth-child(1) h5 {
+    padding-right: 30%;
+  }
+}
+
+@media (max-width: 1260px) {
+  .morse-experience2 {
+    margin: 30px 65px;
+  }
+}
+
+@media (max-width: 1230px) {
+  #carousel1 {
+    height: 620px;
+  }
+  #carousel1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -150px -0px;
+  }
+
+  .about-container {
+    width: 40%;
+    margin: 20px 0px 120px 0px;
+    padding: 40px;
+  }
+
+  .why-morse-wrapper {
+    margin: 0 70px;
+    column-gap: 40px;
+  }
+
+  .why-content1,
+  .why-content2,
+  .why-content3,
+  .why-content4 {
+    width: 100%;
+    box-sizing: border-box;
+    height: 190px;
+  }
+
+  .why-morse {
+    width: 100%;
+  }
+
+  .why-content1-img {
+    left: 5px;
+  }
+
+  .why-content2-img {
+    right: 5px;
+  }
+
+  .why-content3-img {
+    left: 5px;
+  }
+
+  .why-content4-img {
+    right: 5px;
+  }
+  .why-morse h5 {
+    font-size: 28px;
+  }
+
+  .why-morse:nth-child(1) h5 {
+    padding-right: 27%;
+  }
+
+  .why-morse:nth-child(2) h5 {
+    padding-left: 12%;
+  }
+
+  .why-morse img {
+    height: 65px;
+  }
+
+  .four-numbers-section {
+    margin: 55px 70px;
+  }
+  .service-section {
+    padding: 0px 70px;
+  }
+}
+
+@media (max-width: 1195px) {
+  .about-me {
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 1180px) {
+  .partners-wrapper {
+    gap: 35px;
+  }
+
+  .morse-experience2 {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .why-morse-wrapper {
+    margin: 0 30px;
+  }
+
+  .four-numbers-section {
+    margin: 55px 30px;
+  }
+
+  .service-section {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 1123px) {
+  .about-container {
+    width: 50%;
+    margin: 20px 0px 120px 0px;
+    padding: 0px;
+  }
+
+  .first {
+    top: 50%;
+    left: -1%;
+    height: 150px;
+  }
+
+  .second {
+    top: 50%;
+    right: -5%;
+    rotate: -90deg;
+    height: 120px;
+  }
+
+  .fifth {
+    bottom: 1%;
+    left: 10%;
+    height: 120px;
+  }
+
+  .about-me2 .em {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #carousel1 {
+    height: 560px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .why-morse:nth-child(4) h5 {
+    width: 200px;
+    text-align: center;
+    padding-left: 20%;
+    padding-bottom: 10px;
+  }
+  .why-morse:nth-child(2) h5 {
+    padding-left: 7%;
+  }
+
+  .why-morse-wrapper {
+    align-items: flex-end;
+  }
+
+  .services-card {
+    width: 240px;
+  }
+
+  .services-card img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .about-me {
+    padding: 60px 40px 50px 40px;
+    align-items: center;
+  }
+
+  .about-me2 {
+    padding: 0px;
+  }
+
+  .about-me2 em {
+    font-size: 16px;
+  }
+  .morse-experience {
+    margin: 0px 40px;
+  }
+
+  #carousel2 img,
+  #carousel3 img {
+    height: 60px;
+    width: auto;
+  }
+
+  #carousel3 img.partners1,
+  #carousel2 img.partners1 {
+    height: 45px;
+  }
+
+  .partners-wrapper {
+    justify-content: space-between;
+    padding: 40px 40px;
+  }
+
+  .partners-container {
+    width: 40%;
+  }
+
+  .why-morse-title {
+    padding: 30px 0px;
+  }
+}
+
+@media (max-width: 1030px) {
+  #carousel1 {
+    height: 460px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .first {
+    left: -5%;
+
+    rotate: -90deg;
+    top: 40%;
+  }
+
+  .about-me {
+    align-items: flex-end;
+  }
+
+  .why-morse h5 {
+    font-size: 25px;
+  }
+
+  .why-content1,
+  .why-content2,
+  .why-content3,
+  .why-content4 {
+    height: 210px;
+  }
+}
+
+@media (max-width: 965px) {
+  .morse-experience2 h4,
+  .morse-experience h4 {
+    font-size: 45px;
+    line-height: 70px;
+  }
+
+  .morse-experience {
+    height: 200px;
+  }
+  .why-morse p {
+    width: 73%;
+    line-height: 20px;
+  }
+
+  .why-morse:nth-child(1) h5 {
+    padding-right: 20%;
+  }
+}
+
+@media (max-width: 930px) {
+  .why-morse-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0px 70px;
+    row-gap: 30px;
+  }
+
+  .why-content1,
+  .why-content2,
+  .why-content3,
+  .why-content4 {
+    height: 130px;
+  }
+
+  .why-morse img {
+    height: 85px;
+  }
+
+  .why-morse p {
+    width: 80%;
+  }
+
+  .why-content1-img {
+    left: 20px;
+  }
+
+  .why-content2-img {
+    right: 20px;
+  }
+
+  .why-content3-img {
+    left: 20px;
+  }
+
+  .why-content4-img {
+    right: 20px;
+  }
+
+  .why-morse {
+    align-items: flex-start;
+  }
+
+  .why-morse:nth-child(4),
+  .why-morse:nth-child(2) {
+    align-items: flex-end;
+  }
+
+  .why-morse:nth-child(1) h5 {
+    padding-right: 0;
+    padding-left: 21%;
+  }
+
+  .why-morse:nth-child(3) h5 {
+    padding-right: 0;
+    padding-left: 21%;
+  }
+
+  .why-morse:nth-child(2) h5 {
+    padding-left: 0;
+    padding-right: 21%;
+  }
+
+  .why-morse:nth-child(4) h5 {
+    padding-left: 0;
+    width: auto;
+    padding-bottom: 20px;
+    padding-right: 21%;
+  }
+
+  .four-numbers-section {
+    margin: 55px 70px;
+  }
+
+  .service-section {
+    padding: 0px 60px;
+  }
+
+  .services-card {
+    width: 280px;
+  }
+
+  .services-card h4 {
+    font-size: 20px;
+  }
+
+  .card-btn {
+    font-size: 14px;
+  }
+
+  #carousel6.splide {
+    padding: 0px 0px 48px 0px;
+  }
+}
+
+@media (max-width: 915px) {
+  .about-me2 h2 {
+    display: none;
+  }
+
+  .media-title {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .about-me {
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .about-me-section {
+    margin-top: 50px;
+  }
+
+  .partners-wrapper {
+    flex-direction: column;
+  }
+
+  .partners-container {
+    width: 100%;
+  }
+
+  .carousels {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #carousel2.splide {
+    padding: 0px 0px 48px 0px;
+  }
+
+  #carousel3.splide {
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 855px) {
+  .about-container p {
+    font-size: 16px;
+  }
+
+  .about-container h1 {
+    font-size: 40px;
+  }
+  .around-logos {
+    height: 110px;
+  }
+
+  .second {
+    top: 53%;
+    right: -13%;
+    rotate: -90deg;
+    height: 120px;
+  }
+
+  .first {
+    left: -2%;
+
+    rotate: -90deg;
+    top: 45%;
+  }
+
+  .why-morse:nth-child(1) h5 {
+    padding-left: 23%;
+  }
+
+  .why-morse:nth-child(3) h5 {
+    padding-left: 23%;
+  }
+
+  .why-morse:nth-child(2) h5 {
+    padding-right: 23%;
+  }
+
+  .why-morse:nth-child(4) h5 {
+    padding-right: 23%;
+  }
+
+  .why-morse p {
+    width: 77%;
+  }
+}
+
+@media (max-width: 845px) {
+  .morse-experience2 h4,
+  .morse-experience h4 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .morse-experience {
+    height: 160px;
+  }
+}
+
+@media (max-width: 810px) {
+  #carousel1 {
+    height: 380px;
+  }
+
+  .about-container {
+    width: 60%;
+    margin: 20px 0px 120px 0px;
+    padding: 0px;
+  }
+
+  .first {
+    left: -5%;
+    rotate: -90deg;
+    top: 45%;
+  }
+
+  .second {
+    right: -10%;
+    height: 90px;
+  }
+
+  .third {
+    bottom: 1%;
+    right: 30%;
+  }
+
+  .fifth {
+    bottom: 1%;
+    left: 10%;
+    height: 100px;
+  }
+
+  .about-me {
+    align-items: flex-end;
+  }
+
+  .about-me2 {
+    gap: 15px;
+  }
+  .service-section {
+    padding: 0px 70px;
+  }
+
+  .header {
+    height: 60px;
+  }
+
+  .header-logo {
+    height: 35px;
+    top: 11px;
+    padding-right: 15px;
+  }
+
+  .burgerBar {
+    top: 18px;
+  }
+}
+
+@media (max-width: 803px) {
+  .about-me {
+    padding: 20px;
+  }
+
+  .about-me-image {
+    height: 350px;
+  }
+  .morse-experience {
+    margin: 0px 20px;
+  }
+
+  .partners-wrapper {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .about-me {
+    flex-direction: column;
+    padding: 20px 70px 20px 70px;
+  }
+
+  .about-me2 {
+    width: 100%;
+  }
+
+  .about-me-image {
+    width: 100%;
+  }
+
+  .media-title {
+    display: none;
+  }
+
+  .about-me2 h2 {
+    display: block;
+  }
+
+  .morse-experience {
+    height: 200px;
+    margin: 0px 70px;
+  }
+
+  .partners-wrapper {
+    padding: 40px 70px;
+  }
+
+  #carousel2.splide {
+    padding: 0px 0px 24px 0px;
+  }
+
+  #carousel2 img,
+  #carousel3 img {
+    height: 45px;
+    width: auto;
+  }
+
+  #carousel3 img.partners1,
+  #carousel2 img.partners1 {
+    height: 30px;
+  }
+
+  .why-morse img {
+    height: 65px;
+  }
+
+  .service-section {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 712px) {
+  .why-morse img {
+    height: 55px;
+  }
+
+  .why-content1-img {
+    left: 8px;
+  }
+
+  .why-content2-img {
+    right: 8px;
+  }
+
+  .why-content3-img {
+    left: 8px;
+  }
+
+  .why-content4-img {
+    right: 8px;
+  }
+
+  .why-morse p {
+    width: 81%;
+  }
+
+  .why-content1,
+  .why-content2,
+  .why-content3,
+  .why-content4 {
+    height: 160px;
+  }
+}
+
+@media (max-width: 710px) {
+  .about-container {
+    width: 70%;
+  }
+  .first {
+    left: -5%;
+
+    rotate: -90deg;
+    top: 60%;
+  }
+
+  .around-logos.second {
+    right: -9%;
+    bottom: 100%;
+    height: 70px;
+  }
+
+  .around-logos.third {
+    bottom: 1%;
+    right: 30%;
+    height: 100px;
+  }
+
+  .fifth {
+    bottom: 1%;
+    left: 10%;
+    height: 100px;
+  }
+  .around-logos {
+    height: 80px;
+  }
+
+  #carousel2 img,
+  #carousel3 img {
+    height: 40px;
+    width: auto;
+  }
+
+  #carousel3 img.partners1,
+  #carousel2 img.partners1 {
+    height: 30px;
+  }
+}
+
+@media (max-width: 678px) {
+  .why-morse-wrapper {
+    margin: 0px 30px;
+  }
+
+  .why-content1,
+  .why-content2,
+  .why-content3,
+  .why-content4 {
+    height: 140px;
+  }
+
+  .four-numbers-section {
+    margin: 30px;
+  }
+
+  .service-section {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 642px) {
+  .about-me {
+    padding: 20px 40px 20px 40px;
+  }
+
+  .morse-experience {
+    margin: 0px 40px;
+  }
+
+  .partners-wrapper {
+    padding: 40px;
+  }
+
+  .services-card {
+    height: 350px;
+  }
+}
+
+@media (max-width: 620px) {
+  .around-logos.second {
+    right: -9%;
+    bottom: 100%;
+    height: 60px;
+  }
+}
+
+@media (max-width: 608px) {
+  .why-content1,
+  .why-content2,
+  .why-content3,
+  .why-content4 {
+    height: 170px;
+  }
+
+  .service-section {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 582px) {
+  .about-container {
+    margin-bottom: 20px;
+  }
+
+  #butt {
+    display: block;
+    align-self: center;
+  }
+
+  .para {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+  }
+
+  .fade-para {
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0)
+    );
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    transition: all 0.2s ease-in-out;
+  }
+
+  .para.app {
+    opacity: 1;
+    max-height: 500px; /* Adjust this value */
+  }
+
+  .fade-para.unfade {
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+  }
+  .about-me {
+    padding: 20px 40px 20px 40px;
+    gap: 30px;
+  }
+
+  .media {
+    display: block;
+  }
+
+  .about-me-image {
+    height: 300px;
+  }
+
+  .about-me-section {
+    margin-top: 0px;
+  }
+
+  .around-logos {
+    display: none;
+  }
+  .morse-experience2 h4,
+  .morse-experience h4 {
+    font-size: 30px;
+  }
+
+  .morse-experience {
+    margin: 0px 20px;
+    height: 180px;
+  }
+
+  .partners-wrapper {
+    padding: 40px 20px;
+  }
+
+  .why-morse-title {
+    padding: 30px 0px 70px 0px;
+  }
+
+  .why-morse-wrapper {
+    margin: 0px 15px;
+    gap: 50px;
+  }
+
+  .why-content2,
+  .why-content4,
+  .why-content1,
+  .why-content3 {
+    height: auto;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+    border-radius: 0px;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  .why-morse img {
+    top: -110px;
+    height: 40px;
+    border-width: 3px;
+  }
+
+  .why-content1-img,
+  .why-content3-img {
+    left: -10px;
+  }
+
+  .why-content2-img,
+  .why-content4-img {
+    right: -10px;
+  }
+
+  .why-morse p {
+    width: 100%;
+  }
+
+  .why-morse {
+    background-color: #f1d79c;
+    height: 100%;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5); /* Inner shadow on top and left */
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .why-morse:nth-child(2) {
+    background-color: rgb(245, 245, 138);
+  }
+
+  .why-morse:nth-child(3) {
+    background-color: #f8f2da;
+  }
+
+  .why-morse:nth-child(4) {
+    background-color: #f2d89d;
+  }
+
+  .why-morse:nth-child(1) h5,
+  .why-morse:nth-child(2) h5,
+  .why-morse:nth-child(3) h5,
+  .why-morse:nth-child(4) h5 {
+    padding: 0px 0px 20px 0px;
+  }
+
+  .why-morse:nth-child(4),
+  .why-morse:nth-child(2) {
+    align-items: flex-start;
+  }
+
+  .why-morse:nth-child(1),
+  .why-morse:nth-child(3) {
+    align-items: flex-end;
+  }
+
+  .four-numbers-section {
+    margin: 30px 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  #carousel1 {
+    height: 320px;
+  }
+
+  .first {
+    left: 3%;
+    rotate: 0deg;
+    top: auto;
+    bottom: 4%;
+    height: 70px;
+  }
+
+  .around-logos.second {
+    right: 35%;
+    top: auto;
+    bottom: 5%;
+    height: 55px;
+    rotate: 0deg;
+  }
+
+  .around-logos.third {
+    bottom: 4%;
+    right: 3%;
+    height: 70px;
+    rotate: 180deg;
+  }
+
+  .fifth {
+    display: none;
+  }
+
+  .why-morse img {
+    top: -110px;
+    height: 50px;
+    border-width: 3px;
+  }
+
+  .why-content1-img,
+  .why-content3-img {
+    left: 0px;
+  }
+
+  .why-content2-img,
+  .why-content4-img {
+    right: 0px;
+  }
+}
+
+@media (max-width: 510px) {
+  .about-container {
+    width: 85%;
+  }
+
+  .about-container p {
+    text-align: left;
+  }
+
+  .why-morse:nth-child(4) h5 {
+    width: 30px;
+  }
+
+  .services-card {
+    width: 250px;
+  }
+}
+
+@media (max-width: 472px) {
+  .first {
+    left: 3%;
+    rotate: 0deg;
+    top: auto;
+    bottom: 5%;
+    height: 60px;
+  }
+
+  .around-logos.second {
+    right: 35%;
+    top: auto;
+    bottom: 5.5%;
+    height: 50px;
+    rotate: 0deg;
+  }
+
+  .around-logos.third {
+    bottom: 5%;
+    right: 3%;
+    height: 60px;
+    rotate: 180deg;
+  }
+
+  .why-morse h5 {
+    font-size: 21px;
+    font-weight: 500;
+  }
+
+  .service-section {
+    padding: 0px 60px;
+  }
+}
+
+@media (max-width: 460px) {
+  #carousel1 {
+    height: 300px;
+  }
+  .about-container h1 {
+    font-size: 30px;
+  }
+
+  .about-me2 h2 {
+    font-size: 30px;
+  }
+
+  .about-me-image {
+    height: 250px;
+  }
+
+  .about-me {
+    padding: 20px 15px 20px 15px;
+  }
+
+  .morse-experience {
+    margin: 0px 15px;
+  }
+  .partners-wrapper {
+    padding: 40px 15px;
+  }
+
+  .partners-container h4 {
+    font-size: 30px;
+  }
+
+  .why-morse-title {
+    font-size: 30px;
+  }
+
+  .services-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  .first {
+    left: 5%;
+    rotate: 0deg;
+    top: auto;
+    bottom: 5%;
+    height: 70px;
+  }
+
+  .around-logos.second {
+    right: 8%;
+    top: auto;
+    bottom: 5.5%;
+    height: 60px;
+    rotate: 0deg;
+  }
+
+  .around-logos.third {
+    display: none;
+  }
+
+  #carousel2 img,
+  #carousel3 img {
+    height: 30px;
+    width: auto;
+  }
+
+  #carousel3 img.partners1,
+  #carousel2 img.partners1 {
+    height: 25px;
+  }
+
+  .why-morse-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .why-morse-title {
+    padding: 30px 0px 70px 0px;
+  }
+
+  .why-morse:nth-child(1),
+  .why-morse:nth-child(2),
+  .why-morse:nth-child(3),
+  .why-morse:nth-child(4) {
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .why-morse .ragaca {
+    margin-top: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+
+  .why-morse .show {
+    max-height: 250px;
+  }
+
+  .why-morse h5 {
+    padding: 0px 0px 0px 0px !important;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .why-morse:nth-child(4) h5 {
+    width: 100%;
+  }
+
+  .why-morse:nth-child(1) img,
+  .why-morse:nth-child(2) img,
+  .why-morse:nth-child(3) img,
+  .why-morse:nth-child(4) img {
+    top: -110px;
+    left: -30px;
+    height: 40px;
+  }
+
+  .why-morse h5 i {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+    position: absolute;
+    right: 50%;
+    bottom: 10px;
+  }
+
+  .why-morse h4 i.rotated {
+    transform: translateX(-50%) rotate(180deg);
+  }
+}
+
+@media (max-width: 395px) {
+  .morse-experience2 h4,
+  .morse-experience h4 {
+    font-size: 25px;
+  }
+
+  .service-section {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  #carousel2 img,
+  #carousel3 img {
+    height: 25px;
+    width: auto;
+  }
+
+  #carousel3 img.partners1,
+  #carousel2 img.partners1 {
+    height: 20px;
+  }
+}

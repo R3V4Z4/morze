@@ -1,0 +1,240 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+p {
+  font-family: "BPG Algeti", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+.working-title {
+  padding-top: 160px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.working-section1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.first-arrow {
+  position: absolute;
+  scale: 1.8;
+  top: 30%;
+}
+
+.working-section2 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.second-arrow {
+  position: absolute;
+  right: 24%;
+  top: 15%;
+  transform: rotateY(180deg);
+  rotate: 90deg;
+  scale: 1.5;
+}
+
+.third-arrow {
+  position: absolute;
+  left: 22%;
+  top: 50%;
+  scale: 1.5;
+}
+
+.working-section3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.fourth-arrow {
+  position: absolute;
+  scale: 1.8;
+  top: 35%;
+}
+
+.working-paragraph-wrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.working-section1 img,
+.working-section2 img,
+.working-section3 img {
+  height: 100px;
+}
+
+.working-paragraph {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  line-height: 25px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.282);
+  backdrop-filter: blur(15px);
+  height: 150px;
+  background: linear-gradient(145deg, #ebca75, #ffffff);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.working-paragraph-wrapper h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.timeline-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 115px 80px 115px;
+  padding: 0px 120px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 20px;
+  height: 200px;
+  background: linear-gradient(to bottom, #f3f3f3, #ffffff);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.282);
+}
+
+.timeline {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Distribute items evenly */
+  width: 100%; /* Ensures the timeline spans the full width of the parent */
+  padding: 0;
+}
+
+.timestamp {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.status {
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #ebca75;
+  position: relative;
+  flex-direction: column;
+  width: 80%; /* Adjust the width of the status bar */
+  max-width: 200px;
+}
+
+.status:before {
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  /* background: linear-gradient(to top, #ebca75, #ffffff); */
+  border-radius: 50%;
+  border: 1px solid #ebca75;
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.status.flag:before {
+  content: "\f11e"; /* Finish flag */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.li-complete .status {
+  border-top: 4px solid #ebca75;
+}
+
+.li-complete:nth-child(1) .status {
+  border-top: 4px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    transparent,
+    #ebca75,
+    #ebca75,
+    #ebca75
+  );
+  border-image-slice: 1;
+}
+
+.li-complete:last-child .status {
+  border-top: 4px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    #ebca75,
+    #ebca75,
+    #ebca75,
+    transparent
+  );
+  border-image-slice: 1;
+}
+
+.li-complete .status:before {
+  background-color: #ebca75;
+  border: 1px solid #ebca75;
+  color: black;
+}
+
+.li-complete .status h4 {
+  color: black;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.li-complete .timestamp p {
+  color: black;
+  font-family: "BPG Arial Caps", sans-serif;
+  font-size: 20px;
+}
+
+.li-complete {
+  flex: 1; /* Ensures all list items take up equal space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

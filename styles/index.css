@@ -1,0 +1,565 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+p {
+  font-family: "BPG Algeti", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+em {
+  font-size: 18px;
+  font-style: italic;
+  font-family: "ALK Life", sans-serif;
+}
+
+#carousel1 {
+  height: 710px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#carousel1 .splide__track {
+  height: 100%;
+}
+
+#carousel1 .splide__list {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#carousel1 .splide__slide {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#carousel1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-container-wraper {
+  display: flex;
+  place-content: center;
+  position: relative;
+  background-color: #f2f89d;
+
+  background: linear-gradient(to bottom, #ebca75, #ffffff7b);
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+  width: 40%;
+  margin: 70px 0px 120px 0px;
+  padding: 40px;
+}
+
+.about-container ul {
+  list-style: none;
+  padding-left: 80px;
+}
+
+.about-container ul li {
+  background-image: url("../images/ბულეთი.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 24px;
+  line-height: 20px;
+}
+
+.about-container h1 {
+  font-family: "BPG Arial Caps", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.about-container p {
+  text-align: justify;
+  font-family: "BPG Algeti", sans-serif;
+  font-size: 18px;
+
+  line-height: 25px;
+}
+
+.about-container p:nth-child(2) {
+  margin-top: 10px;
+}
+
+.around-logos {
+  position: absolute;
+  height: 100px;
+  /* animation: float 6s infinite ease-in-out; Smooth animation */
+}
+
+.first {
+  top: 50%;
+  left: 1%;
+  height: 150px;
+}
+
+.second {
+  top: 50%;
+  right: 1%;
+  rotate: -90deg;
+  height: 120px;
+}
+
+.third {
+  bottom: -6%;
+  right: 35%;
+  height: 150px;
+}
+
+.fourth {
+  bottom: 10%;
+  right: 12%;
+}
+
+.fifth {
+  bottom: 1%;
+  left: 20%;
+  height: 120px;
+}
+
+.media-title {
+  display: none;
+}
+
+#butt {
+  display: none;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+#butt i {
+  transition: 0.1s ease-in-out;
+}
+
+#butt.rotate i {
+  rotate: 180deg;
+}
+
+.about-me {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 50px;
+  padding: 60px 70px 50px 70px;
+}
+
+.media {
+  display: none;
+}
+
+.about-me2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px 20px;
+  line-height: 20px;
+}
+
+.about-me-image {
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.about-me h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.about-me p {
+  line-height: 25px;
+}
+
+.morse-experience {
+  background: url("../images/background.png");
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: top;
+  margin: 0px 70px;
+  border-radius: 20px;
+}
+
+.morse-experience h4 {
+  font-family: "ALK Life", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 80px;
+}
+
+#typing-text {
+  /* white-space: nowrap; */
+  overflow: hidden;
+}
+
+.morse-experience2 {
+  background: url("../images/background.png");
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: top;
+
+  margin: 30px 110px 50px 110px;
+  border-radius: 20px;
+}
+
+.morse-experience2 h4 {
+  font-family: "ALK Life", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.partners-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px 20px 0px 120px;
+}
+
+.partners-container h4 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.partners-container p {
+  line-height: 25px;
+}
+
+.partners-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.carousels {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+#carousel2 img,
+#carousel3 img {
+  height: 80px;
+  width: auto;
+}
+
+#carousel2 img.partners1 {
+  height: 60px;
+}
+
+#carousel2 li,
+#carousel3 li {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.why-morse-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 70px 0px 30px 0px;
+}
+
+.why-morse-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  row-gap: 50px;
+}
+
+.why-morse {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.why-morse:nth-child(4),
+.why-morse:nth-child(2) {
+  align-items: flex-start;
+}
+
+.why-morse h5    i {
+  display: none;
+}
+
+.why-morse img {
+  height: 100px;
+  padding: 20px;
+  overflow: visible;
+  border-radius: 100px;
+  border: 5px solid black;
+  position: absolute;
+  top: -80px;
+  background-color: white;
+}
+
+.why-content1-img {
+  left: 15px;
+}
+
+.why-content2-img {
+  right: 15px;
+}
+
+.why-content3-img {
+  left: 15px;
+}
+
+.why-content4-img {
+  right: 15px;
+}
+
+.why-content1,
+.why-content2,
+.why-content3,
+.why-content4 {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5); /* Inner shadow on top and left */
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.why-content1 {
+  background-color: #f1d79c;
+  justify-content: flex-end;
+}
+
+.why-content2 {
+  background-color: rgb(245, 245, 138);
+  justify-content: flex-start;
+}
+.why-content3 {
+  background-color: #f8f2da;
+  justify-content: flex-end;
+}
+.why-content4 {
+  background-color: #f2d89d;
+  justify-content: flex-start;
+}
+
+.why-morse p {
+  width: 75%;
+  line-height: 20px;
+}
+
+.why-morse h5 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.why-morse:nth-child(1) h5 {
+  padding-right: 32%;
+}
+
+.why-morse:nth-child(3) h5 {
+  padding-right: 10%;
+}
+
+.why-morse:nth-child(2) h5 {
+  padding-left: 15%;
+}
+
+.why-morse:nth-child(4) h5 {
+  padding-left: 4%;
+}
+
+.four-numbers-section {
+  margin: 55px;
+  overflow: visible;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 25px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  height: 175px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.numbers img {
+  height: 60px;
+}
+
+.numbers p {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+.numbers h4 {
+  font-size: 16px;
+  text-align: center;
+}
+
+#carousel7 {
+  padding: 0px 0px 48px 0px;
+}
+
+#carousel7 .splide__slide {
+  padding: 20px;
+}
+
+#carousel7 .splide__track {
+  background-image: url("../images/morse\ new-02.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.services-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space between image and button */
+  align-items: flex-start;
+  gap: 20px;
+  padding: 15px;
+  margin: 15px;
+  width: 290px;
+  height: 380px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #a5b0b67b, rgba(255, 255, 255, 0.182));
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.services-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.services-card h4 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.card-btn {
+  margin-top: auto; /* Pushes the button to the bottom */
+  align-self: flex-start; /* Aligns the button to the left */
+}
+
+.card-btn {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #ebca75;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "BPG Arial Caps", sans-serif;
+
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.card-btn:hover,
+.card-btn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.card-btn:hover {
+  transform: translateY(-1px);
+}
+
+.card-btn:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.service-section {
+  padding: 0px 160px 40px 160px;
+}
+
+.services-title {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-size: 35px;
+  text-align: center;
+}
+
+#carousel6.splide {
+  padding: 0px;
+}
+
+#carousel6 .splide__pagination {
+  display: flex !important;
+}
+
+#carousel7 .splide__slide,
+#carousel6 .splide__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

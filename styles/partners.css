@@ -1,0 +1,131 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+p {
+  font-family: "BPG Algeti", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+.partners-title {
+  text-align: center;
+
+  font-size: 40px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.splide2 {
+  padding: 15px 48px;
+}
+
+.splide__arrow {
+  background-color: #ebca75;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#carousel5 img,
+#carousel6 img {
+  height: 60px;
+  width: auto;
+}
+#carousel6 img.partners1,
+#carousel5 img.partners1 {
+  height: 60px;
+}
+
+#carousel5 li,
+#carousel6 li {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: white;
+}
+
+#carousel5 .splide__track,
+#carousel6 .splide__track {
+  border-radius: 20px;
+}
+
+.partners-section {
+  margin: 180px 115px 0px 115px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.282);
+  border-radius: 20px;
+  padding-top: 40px;
+  backdrop-filter: blur(20px);
+  background: linear-gradient(to bottom, #ebca75, #ffffff7b);
+}
+
+.recomendation-section {
+  margin: 30px 115px 100px 115px;
+}
+
+.recomendation-title {
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 40px 0px;
+}
+
+.recomendation-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 40px 20px;
+}
+
+.recomendation-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  /* border: 1px solid rgb(203, 203, 203); */
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  background-color: rgba(239, 239, 239, 0.72);
+}
+
+.recomendation-item img {
+  width: 30%;
+}
+
+.recomendation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recomendation-content p {
+  line-height: 20px;
+}
+
+.recomendation-content h4 {
+  text-align: left;
+  font-family: "Montserrat", serif;
+  line-height: 20px;
+}
+
+.recomendation-content h3 {
+  text-align: righta;
+  font-family: "Montserrat", serif;
+}
