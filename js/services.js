@@ -1,5 +1,3 @@
-"use strict";
-
 let lastScrollTop = 0;
 const header = document.querySelector(".header");
 
@@ -86,54 +84,67 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  new Splide("#carousel5", {
-    type: "loop",
-    perPage: 5,
-    direction: "rtl",
-    pagination: false,
-    arrows: false,
-    gap: "20px",
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".container .card");
+  const profile = document.querySelector(".profile-card");
+  let openCard = null; // Store the currently open card
 
-    autoScroll: {
-      speed: 1,
-    },
-    breakpoints: {
-      1000: {
-        perPage: 4,
-      },
-      650: {
-        gap: "10px",
-      },
-      550: {
-        perPage: 3,
-        gap: "10px",
-      },
-    },
-  }).mount(window.splide.Extensions);
+  function addProfileHover() {
+    profile.classList.add("up");
+  }
 
-  new Splide("#carousel6", {
-    type: "loop",
-    perPage: 5,
-    direction: "ltr",
-    pagination: false,
-    arrows: false,
-    gap: "20px",
+  function removeProfileHover() {
+    profile.classList.remove("up");
+  }
 
-    autoScroll: {
-      speed: 1,
-    },
-    breakpoints: {
-      1000: {
-        perPage: 4,
-      },
+  function toggleProfileClick() {
+    profile.classList.toggle("up");
+  }
 
-      650: {
-        gap: "10px",
-      },
-      550: {
-        perPage: 3,
-      },
-    },
-  }).mount(window.splide.Extensions);
+  function handleInteraction() {
+    if (window.innerWidth < 900) {
+      profile.removeEventListener("mouseenter", addProfileHover);
+      profile.removeEventListener("mouseleave", removeProfileHover);
+      profile.addEventListener("click", toggleProfileClick);
+
+      cards.forEach((card) => {
+        card.removeEventListener("mouseenter", addHoverClass);
+        card.removeEventListener("mouseleave", removeHoverClass);
+        card.addEventListener("click", toggleSingleOpenClass);
+      });
+    } else {
+      profile.addEventListener("mouseenter", addProfileHover);
+      profile.addEventListener("mouseleave", removeProfileHover);
+      profile.removeEventListener("click", toggleProfileClick);
+
+      cards.forEach((card) => {
+        card.addEventListener("mouseenter", addHoverClass);
+        card.addEventListener("mouseleave", removeHoverClass);
+        card.removeEventListener("click", toggleSingleOpenClass);
+      });
+    }
+  }
+
+  function addHoverClass(event) {
+    event.currentTarget.classList.add("isopen");
+  }
+
+  function removeHoverClass(event) {
+    event.currentTarget.classList.remove("isopen");
+  }
+
+  function toggleSingleOpenClass(event) {
+    const clickedCard = event.currentTarget;
+
+    if (openCard && openCard !== clickedCard) {
+      openCard.classList.remove("isopen");
+    }
+
+    clickedCard.classList.toggle("isopen");
+
+    openCard = clickedCard.classList.contains("isopen") ? clickedCard : null;
+  }
+
+  handleInteraction();
+  window.addEventListener("resize", handleInteraction);
 });

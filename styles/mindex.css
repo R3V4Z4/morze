@@ -629,20 +629,6 @@
   .service-section {
     padding: 0px 70px;
   }
-
-  .header {
-    height: 60px;
-  }
-
-  .header-logo {
-    height: 35px;
-    top: 11px;
-    padding-right: 15px;
-  }
-
-  .burgerBar {
-    top: 18px;
-  }
 }
 
 @media (max-width: 803px) {
@@ -1243,8 +1229,7 @@
     display: inline-block;
     transition: transform 0.2s ease-in-out;
     position: absolute;
-    right: 50%;
-    bottom: 10px;
+    right: 10%;
   }
 
   .why-morse h4 i.rotated {

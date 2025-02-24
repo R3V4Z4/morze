@@ -27,7 +27,9 @@
       href="../node_modules/@splidejs/splide/dist/css/themes/splide-sea-green.min.css"
     />
     <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/mglobal.css" />
     <link rel="stylesheet" href="../styles/partners.css" />
+    <link rel="stylesheet" href="../styles/mpartners.css" />
   </head>
   <body>
     <header>
@@ -54,10 +56,39 @@
             <li><a href="portfolio.html">პორტფოლიო</a></li>
             <li><a href="contact.html">კონტაქტი</a></li>
           </ul>
+          <nav class="sidebar">
+            <ul>
+              <li><a href="../index.html">მთავარი</a></li>
+              <li>
+                <a>
+                  სერვისები
+                  <i class="fa-solid fa-angle-down arrow-icon"></i>
+                </a>
+                <div class="sub-menu">
+                  <ul>
+                    <li><a href="services.html">პრეზენტაცია</a></li>
+                    <li><a href="services.html#service2">ტრენინგი</a></li>
+                    <li>
+                      <a href="services.html#service3">კონსულტაცია</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="working.html">როგორ მუშაობს</a></li>
+              <li><a href="partners.html">პარტნიორები</a></li>
+              <li><a href="portfolio.html">პორტფოლიო</a></li>
+              <li><a href="contact.html">კონტაქტი</a></li>
+            </ul>
+          </nav>
           <ul class="header-contact">
             <li>+995 595 00 44 54</li>
             <li>Makharadze.g90@gmail.com</li>
           </ul>
+          <div class="burgerBar" id="burgerBar">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
         </div>
       </nav>
     </header>
@@ -84,7 +115,11 @@
                 <img src="../images/partners4.png" alt="Image 4" />
               </li>
               <li class="splide__slide">
-                <img src="../images/partners5.png" alt="Image 5" />
+                <img
+                  class="partners1"
+                  src="../images/partners5.png"
+                  alt="Image 5"
+                />
               </li>
               <li class="splide__slide">
                 <img src="../images/partners6.png" alt="Image 6" />
@@ -122,7 +157,11 @@
                 <img src="../images/partners12.jpg" alt="Image 5" />
               </li>
               <li class="splide__slide">
-                <img src="../images/partners13.png" alt="Image 6" />
+                <img
+                  class="partners1"
+                  src="../images/partners13.png"
+                  alt="Image 6"
+                />
               </li>
               <li class="splide__slide">
                 <img src="../images/partners14.png" alt="Image 4" />
@@ -135,78 +174,100 @@
         <h2 class="recomendation-title">რეკომენდაციები</h2>
         <div class="recomendation-wrapper">
           <div class="recomendation-item">
-            <img src="../images/partners13.png" />
-            <div class="recomendation-content">
-              <h4>Wellness Coaching Australia</h4>
-              <p>
-                “Giorgi was very prompt in his responses and willingness to do
-                the work. You might say he over-delivered but we certainly got
-                what we requested from him.”
-              </p>
-              <h3>Fiona Cosgrove</h3>
+            <div class="recomendation-item-inner">
+              <img src="../images/partners13.png" />
+              <div class="recomendation-content">
+                <h4>Wellness Coaching Australia</h4>
+                <p>
+                  “Giorgi was very prompt in his responses and willingness to do
+                  the work. You might say he over-delivered but we certainly got
+                  what we requested from him.”
+                </p>
+                <h3>Fiona Cosgrove</h3>
+              </div>
             </div>
           </div>
           <div class="recomendation-item">
-            <img src="../images/parnters1.png" />
-            <div class="recomendation-content">
-              <h4>Wellness Coaching Australia</h4>
-              <p>
-                “Great job. Easy to work with. Open to revisions. Very
-                proficient with PowerPoint and graphic deisgn. Fast.”
-              </p>
-              <h3>Olivier Courtois</h3>
+            <div class="recomendation-item-inner">
+              <img src="../images/parnters1.png" />
+              <div class="recomendation-content">
+                <h4>Wellness Coaching Australia</h4>
+                <p>
+                  “Great job. Easy to work with. Open to revisions. Very
+                  proficient with PowerPoint and graphic deisgn. Fast.”
+                </p>
+                <h3>Olivier Courtois</h3>
+              </div>
             </div>
           </div>
           <div class="recomendation-item">
-            <img src="../images/partners14.png" />
-            <div class="recomendation-content">
-              <h4>Wolt Azerbaijan,</h4>
-              <p>
-                "brilliant work exceptional attention to detail very happy with
-                the outcome will def use again thanks !!"
-              </p>
-              <h3>Farid Khalilov</h3>
+            <div class="recomendation-item-inner">
+              <img src="../images/partners14.png" />
+              <div class="recomendation-content">
+                <h4>Wolt Azerbaijan,</h4>
+                <p>
+                  "brilliant work exceptional attention to detail very happy
+                  with the outcome will def use again thanks !!"
+                </p>
+                <h3>Farid Khalilov</h3>
+              </div>
             </div>
           </div>
           <div class="recomendation-item">
-            <img src="../images/partners9.png" />
-            <div class="recomendation-content">
-              <h4>Radisson</h4>
-              <p>
-                გიორგისთან "პრეზენტაციის უნარების" ტრენინგის ფარგლებში
-                ვითანამშრომლეთ. ყველაზე მნიშვნელოვანი რაცაა ტრენინგი იყო
-                პრაქტიკული და დამახსოვრებადი. ჩემი თანამშრომლები დღემდე იყენებენ
-                იმ ტექნიკებს, რაც ამ დროს ისწავლეს. ეს არ ყოფილა ტრენინგი,
-                რომელსაც მოისმენ და დაგავიწყდება, პირიქით, ამ ცოდნას
-                ყოველდღიურობაში მოიხმარ და ითვალისწინებ.
-              </p>
-              <h3>თამუნა იარაჯული</h3>
+            <div class="recomendation-item-inner">
+              <img src="../images/partners9.png" />
+              <div class="recomendation-content">
+                <h4>Radisson</h4>
+                <p>
+                  გიორგისთან "პრეზენტაციის უნარების" ტრენინგის ფარგლებში
+                  ვითანამშრომლეთ. ყველაზე მნიშვნელოვანი რაცაა ტრენინგი იყო
+                  პრაქტიკული და დამახსოვრებადი. ჩემი თანამშრომლები დღემდე
+                  იყენებენ იმ ტექნიკებს, რაც ამ დროს ისწავლეს. ეს არ ყოფილა
+                  ტრენინგი, რომელსაც მოისმენ და დაგავიწყდება, პირიქით, ამ ცოდნას
+                  ყოველდღიურობაში მოიხმარ და ითვალისწინებ.
+                </p>
+                <h3>თამუნა იარაჯული</h3>
+              </div>
             </div>
           </div>
           <div class="recomendation-item">
-            <img src="../images/partners6.png" />
-            <div class="recomendation-content">
-              <h4>ილიაუნი</h4>
-              <p>
-                "ძალიან ვაფასებ იმ დამოკიდებულებას და პასუხისმგებლობის გრნობას,
-                რომელიც თითოეული მონაწილის მიმართ გქონდათ. ეს საუკეთესო
-                გამოცდილება იყო, სიამოვნებით გავიმეორებდი"
-              </p>
-              <h3>Fiona Cosgrove</h3>
+            <div class="recomendation-item-inner">
+              <img src="../images/partners6.png" />
+              <div class="recomendation-content">
+                <h4>ილიაუნი</h4>
+                <p>
+                  "ძალიან ვაფასებ იმ დამოკიდებულებას და პასუხისმგებლობის
+                  გრნობას, რომელიც თითოეული მონაწილის მიმართ გქონდათ. ეს
+                  საუკეთესო გამოცდილება იყო, სიამოვნებით გავიმეორებდი"
+                </p>
+              </div>
             </div>
           </div>
           <div class="recomendation-item">
-            <img src="../images/partners7.jpeg" />
-            <div class="recomendation-content">
-              <h4>ლოლუ</h4>
-              <p>
-                თავიდან, გიორგისთან უფრო რეკომენდაციისა და სანდოობის გამო
-                დავიწყეთ თანამშრომლობა, თუმცა შედეგმა ყველა მოლოდინს გადააჭარბა,
-                აღფრთოვანებული ვარ - ვერ წარმოვიდგენდი თუ პრეზენტაციების
-                მიმართულებით, ამდენი რამის გაკეთება იყო შესაძლებელი. ჩვენ
-                აუცილებლად ვითანამშრომლებთ მომავალშიც.
-              </p>
-              <h3>Fiona Cosgrove</h3>
+            <div class="recomendation-item-inner">
+              <img src="../images/partners11.png" />
+              <div class="recomendation-content">
+                <h4>UNFPA Georgia</h4>
+                <p>
+                  თავიდან, გიორგისთან უფრო რეკომენდაციისა და სანდოობის გამო
+                  დავიწყეთ თანამშრომლობა, თუმცა შედეგმა ყველა მოლოდინს
+                  გადააჭარბა, აღფრთოვანებული ვარ - ვერ წარმოვიდგენდი თუ
+                  პრეზენტაციების მიმართულებით, ამდენი რამის გაკეთება იყო
+                  შესაძლებელი. ჩვენ აუცილებლად ვითანამშრომლებთ მომავალშიც.
+                  ძალიან სასიამოვნო იყო გიორგისთან თანამშრომლობა. საკითხს
+                  თავიდანვე დიდი ყურადღებით და დაკვირვებით მოეკიდა, გზადაგზა
+                  თავისი ხედვაც შემოგვთავაზა და გვირჩია, როგორ უფრო ეფექტურად
+                  წარმოჩნდებოდა ესა თუ ის ინფორმაცია პრეზენტაციაში, წარსადგენი
+                  დროის ლიმიტის გათვალისწინებით. ისიც აღსანიშნავია, რომ ძალიან
+                  მცირე დროში მოუწია საკმაოდ დიდ და რთულ მასალაზე მუშაობა და
+                  ეფექტურ, საინტერესო, მარტივად აღსაქმელ სლაიდებად გარდაქმნა,
+                  რისთვისაც ცალკე მადლობა ეკუთვნის. ზუსტად ვიცი, რა სირთულის
+                  მასალასთანაც არ უნდა მოუწიოს შეხება, თავისი ანალიტიკური
+                  უნარებითა და გონიერებით, ნებისმიერ გამოწვევას გაუმკლავდება -
+                  თავისი საქმის პროფესიონალია!
+                </p>
+                <h3>სალომე მოდებაძე,</h3>
+              </div>
             </div>
           </div>
         </div>
@@ -274,6 +335,5 @@
     <script src="../node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
     <script src="../node_modules/@splidejs/splide-extension-auto-scroll/dist/js/splide-extension-auto-scroll.min.js"></script>
     <script src="../js/partners.js"></script>
-    <script src="../js/script.js"></script>
   </body>
 </html>

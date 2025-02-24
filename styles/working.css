@@ -150,13 +150,14 @@ strong {
 .status {
   padding: 0px 40px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  align-items: center; /* Ensures text and line are centered */
+  text-align: center; /* Centers text inside */
   border-top: 2px solid #ebca75;
   position: relative;
-  flex-direction: column;
-  width: 80%; /* Adjust the width of the status bar */
+  width: 100%;
   max-width: 200px;
+  text-align: center;
 }
 
 .status:before {
@@ -222,6 +223,9 @@ strong {
   color: black;
   margin-top: 50px;
   font-weight: 600;
+  white-space: normal; /* Allow text to wrap */
+  text-align: center; /* Center the text */
+  width: 100%;
 }
 
 .li-complete .timestamp p {
@@ -237,4 +241,15 @@ strong {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.media {
+  display: none;
+}
+
+.media-arrow-left {
+  display: none;
+}
+.media-arrow-right {
+  display: none;
 }

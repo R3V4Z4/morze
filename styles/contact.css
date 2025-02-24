@@ -38,7 +38,6 @@ body {
   padding: 20px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
   /* background-color: white;  */
@@ -51,9 +50,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  line-height: 20px;
   font-size: 18px;
   padding-left: 20px;
+}
+
+.contact-text p {
+  line-height: 20px;
 }
 
 .contact-text h1 {
@@ -96,13 +98,21 @@ body {
   color: #333;
 }
 
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .accordion-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 40px 10px;
+  padding: 40px 0px;
 }
 
 .accordion-container h2 {
@@ -120,9 +130,9 @@ body {
 }
 
 .accordion-content-container {
-  height: 0px;
+  max-height: 0px;
   overflow: hidden;
-  transition: height 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   line-height: 20px;
   font-family: "BPG Arial Caps", sans-serif;
   padding: 0px 30px;
@@ -133,6 +143,7 @@ body {
   gap: 20px;
   line-height: 25px;
   border-radius: 20px;
+  box-sizing: border-box;
 }
 
 .accordion-content-container a {
@@ -170,15 +181,16 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-.one-accordion:hover .accordion-content-container {
-  height: 160px;
+.one-accordion.open .accordion-content-container {
+  max-height: 220px;
+  padding: 20px 30px; /* Add top and bottom padding when open */
 }
 
-.one-accordion:hover .accordion-title-container i {
+.one-accordion.open .accordion-title-container i {
   rotate: 180deg;
 }
 
-.one-accordion:hover .accordion-title-container::after {
+.one-accordion.open .accordion-title-container::after {
   width: calc(100% - 60px);
   left: 30px;
 }
